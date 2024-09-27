@@ -19,8 +19,6 @@ def ceasar_cipher(string, shift_factor)
       new_ascii_values.push(new_value)
       next
     end
-   
-
     if (ascii >= upper_case_a && ascii <= upper_case_z) || (ascii >= lower_case_a && ascii <= lower_case_z )
       new_ascii_values.push(ascii + shift_factor)
      else
@@ -80,4 +78,4 @@ def cc_with_enumerables(string, shift_factor)
   puts new_string.to_s
 end
 
-cc_with_enumerables("What a string", 5)
+cc_with_enumerables("What a string", 5) 
